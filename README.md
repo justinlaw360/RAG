@@ -7,5 +7,5 @@ As of Oct 2023, there are over 120 policy instructions published by management, 
 The PoC aims to let machine “learning” all the CGIs and using ChatGPT provide advices to staff about the relevant CGIs in natural language.
 
 ### The Flow
-I the simpified the flow as illusstrated below.
+I the simpified the flow how OpenAI model "learn" the company policies and response based on the policies, as illusstrated below.
 ![image](https://github.com/justinlaw360/RAG/blob/main/rag.jpg)
