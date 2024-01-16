@@ -47,6 +47,7 @@ Generative Pre-trained Transformer (GPT) is a large language model (LLM) that is
 ![image](https://github.com/justinlaw360/RAG/assets/4946026/9cf31c9e-4819-4dd0-b438-b8fcb6eaac97)
 <br>Transfer model
 
+### Step 6 - Build a simple GUI to interactive with the model using Flask
 
 
 
