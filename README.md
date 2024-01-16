@@ -16,3 +16,42 @@ This assortment of external knowledge is appended to the user’s prompt and pas
 ### The Flow
 I the simpified the flow how OpenAI model "learn" the company policies and response based on the policies, as illusstrated below.
 ![image](https://github.com/justinlaw360/RAG/blob/main/rag.jpg)
+
+### Step 1 - Data collection
+255 (English and Chinese) CGIs are downloaded from HR Library
+
+![image](https://github.com/justinlaw360/RAG/assets/4946026/d0ec160b-c157-4ebf-9f20-0fd1322e1d74)HR Library
+
+And store locally on my PC
+
+![image](https://github.com/justinlaw360/RAG/assets/4946026/53c17c03-9c57-43a7-ad1a-33cae2bf5397)
+
+### Step 2 - Embedding Data
+I use Azure OpenAI embedding model "text-embedding-ada-002“ to embed the documents into vectors. Text-embedding-ada-002 is an embedding model from OpenAI published in Dec 2022 for text search, text similarity, and code search. 
+
+![image](https://github.com/justinlaw360/RAG/assets/4946026/7220b306-aa0c-481b-9961-fccf88984ab1)
+
+### Step 3 - VectorDB
+VectorDB is a database designed for storing and retrieving text using chunking, embedding, and vector search techniques. 
+
+![image](https://github.com/justinlaw360/RAG/assets/4946026/96edf610-f2ba-47f7-a940-284570f84d9c)
+
+### Step 4 - Perform Similarity Search against CGIs
+In this PoC, I choose FAISS (Facebook AI Similarity Search) to enable vectors to be compared with L2 (Euclidean) distances or dot products and uses quantization and binary indexes to reduce search latency at the cost of recall.
+
+![image](https://github.com/justinlaw360/RAG/assets/4946026/c70144b1-3d03-4503-a64a-d6eb486e5c96)
+
+### Step 5 - Response in Nature Language using GPT4
+Generative Pre-trained Transformer (GPT) is a large language model (LLM) that is capable of generating human-like text.
+
+![image](https://github.com/justinlaw360/RAG/assets/4946026/9cf31c9e-4819-4dd0-b438-b8fcb6eaac97)
+Transfer model
+
+
+
+
+
+
+
+
+
