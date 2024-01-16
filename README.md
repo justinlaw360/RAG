@@ -45,7 +45,7 @@ In this PoC, I choose FAISS (Facebook AI Similarity Search) to enable vectors t
 Generative Pre-trained Transformer (GPT) is a large language model (LLM) that is capable of generating human-like text.
 
 ![image](https://github.com/justinlaw360/RAG/assets/4946026/9cf31c9e-4819-4dd0-b438-b8fcb6eaac97)
-Transfer model
+<br>Transfer model
 
 
 
