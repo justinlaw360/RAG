@@ -48,9 +48,12 @@ Generative Pre-trained Transformer (GPT) is a large language model (LLM) that is
 <br>Transfer model
 
 ### Step 6 - Build a simple GUI to interactive with the model using Flask
+![image](https://github.com/justinlaw360/RAG/blob/main/Animation.gif)
 
+### Lesson learnt
+Data is a crucial component in the Machine Learning, I spend almost 40% of time to search the full set of data, removing duplication and encoding non English texts.  It is also important that the policy is sensitive data and it should not be disclosed to public.  Data security is another area I play most attention, all data are stored locally.
 
-
+By using LangChain model, I can plug and play another models, such as Meta LLAMA2 replacing the OpenAI models.
 
 
 
