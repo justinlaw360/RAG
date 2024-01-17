@@ -14,7 +14,7 @@ As the name suggests, RAG has two phases: retrieval and content generation. In t
 This assortment of external knowledge is appended to the user’s prompt and passed to the language model. In the generative phase, the LLM draws from the augmented prompt and its internal representation of its training data to synthesize an engaging answer tailored to the user in that instant. The answer can then be passed to a chatbot with links to its sources.
 
 ### The Flow
-I the simpified the flow how OpenAI model "learn" the company policies and response based on the policies, as illusstrated below.
+I simplified the flow how OpenAI model "learn" the company policies and response based on the policies, as illustrated below.
 ![image](https://github.com/justinlaw360/RAG/blob/main/rag.jpg)
 
 ### Step 1 - Data collection
