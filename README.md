@@ -1,6 +1,6 @@
 # Retrieval-Augmented Generation using Azure OpenAI
 
-The MTRC policies set out the guidelines and standards on management of information in conducting its business, with highlights on the general principles and areas of law and management which staff should have regard to in implementation.
+The company policies set out the guidelines and standards on management of information in conducting its business, with highlights on the general principles and areas of law and management which staff should have regard to in implementation.
 
 As of Oct 2023, there are over 120 policy instructions published by management, covering various areas, such as HR, IT, security, administration, management instructions, corporate governance, finance, asset, health and safety.  More and more policies make the staff  be difficult to figure out the relevant CGIs to follow.
 
