@@ -1,0 +1,9 @@
+# Assets Directory
+
+Place your app icons and splash screen images here:
+- icon.png (1024x1024)
+- splash.png (recommended: 2048x2732)
+- adaptive-icon.png (for Android, 1024x1024)
+- favicon.png (for web, 48x48)
+
+For now, Expo will use default assets.
